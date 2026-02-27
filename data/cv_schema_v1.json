@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "YYYY-MM-DD",
+    "owner": ""
+  },
+  "personal": {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "portfolio": ""
+    }
+  },
+  "narrative": {
+    "headline": "",
+    "coreIdentity": "",
+    "careerGoal": "",
+    "avoidFraming": []
+  },
+  "experience": [
+    {
+      "immutable": {
+        "company": "",
+        "officialTitle": "",
+        "start": "YYYY-MM",
+        "end": "YYYY-MM",
+        "location": ""
+      },
+      "context": {
+        "industry": "",
+        "companySize": "",
+        "teamSize": 0,
+        "reportsTo": "",
+        "stakeholders": []
+      },
+      "raw": "",
+      "facts": [
+        {
+          "what": "",
+          "metric": null,
+          "scope": "",
+          "myRole": "owner"
+        }
+      ],
+      "capabilities": [
+        {
+          "name": "",
+          "evidence": []
+        }
+      ],
+      "technologies": [
+        {
+          "name": "",
+          "yearsInThisRole": 0,
+          "usedInProduction": true,
+          "depth": "implementation",
+          "contexts": []
+        }
+      ],
+      "leadershipSignals": {
+        "mentored": 0,
+        "ledProjects": false,
+        "hiringInvolvement": false,
+        "crossFunctional": false
+      },
+      "relevanceTags": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "",
+      "institution": "",
+      "year": "",
+      "notes": ""
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "name": "",
+        "level": "intermedio",
+        "yearsTotal": 0,
+        "usedInProduction": true,
+        "lastUsed": "YYYY"
+      }
+    ],
+    "soft": []
+  },
+  "languages": [
+    {
+      "language": "",
+      "level": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "",
+      "issuer": "",
+      "year": "",
+      "url": ""
+    }
+  ],
+  "constraints": {
+    "cannotModify": [
+      "dates",
+      "companies",
+      "officialTitle",
+      "technologies",
+      "educationDegrees"
+    ],
+    "canReframe": [
+      "achievements",
+      "summary",
+      "bulletOrdering",
+      "skillHighlighting",
+      "capabilityEmphasis",
+      "headline"
+    ]
+  },
+  "strategy": {
+    "targetRoles": [],
+    "avoidRoles": [],
+    "seniority": "senior",
+    "workMode": "remoto",
+    "industries": []
+  }
+}

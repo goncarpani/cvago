@@ -1,0 +1,25 @@
+# Env
+.env
+.env.local
+*.env
+
+# Perfil guardado (datos personales; cada usuario tiene el suyo)
+data/profile.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/generated_pdfs/
+backend/generated_cvs/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
