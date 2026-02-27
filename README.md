@@ -23,8 +23,8 @@
 ### 1. Clonar y entrar al proyecto
 
 ```bash
-git clone https://github.com/TU_USUARIO/job-finder.git
-cd job-finder
+git clone https://github.com/goncarpani/cvago.git
+cd cvago
 ```
 
 ### 2. Backend (Python)
