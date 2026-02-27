@@ -1,12 +1,13 @@
 # CVago
 
-**CV + Vago** — Herramienta para candidatos: subís tu CV, analizás ofertas (resumen + compatibilidad con tu perfil) y generás un CV adaptado en Word y PDF para cada posición.
+**CV + Vago** — Las empresas usan IA para filtrar candidatos. Devolvé el favor.
+Subís tu CV, analizás si la posición te cierra, y generás un CV adaptado a esa oferta en Word y PDF. Sin copiar y pegar a mano.
 
 **Flujo en 3 pasos:**
 
-1. **Mi CV** — Subís tu CV (PDF, DOCX o TXT). Se parsea y enriquece automáticamente. Podés comparar con un perfil guardado y guardar como perfil actual.
-2. **Posición** — Pegás un link o el texto de la oferta. Un botón obtiene el resumen y analiza la compatibilidad (score, seniority fit, razones a favor/en contra).
-3. **CV adaptado** — Elegís idioma (es/en), generás el CV adaptado a esa oferta. Vista previa en PDF y descarga en Word (para editar) o PDF (para enviar).
+1. **Mi CV** — Subís tu CV (PDF, DOCX o TXT). La IA lo parsea y enriquece automáticamente en un perfil estructurado. Tip: cuanto más detallado sea tu CV, mejor va a ser el CV adaptado que se genere. Si querés, editá el perfil generado, guardalo como tu CV largo y volvé a subirlo.
+2. **Posición** — Pegás el texto de la oferta. Obtenés un resumen y un análisis de compatibilidad con tu perfil: score, seniority fit, y razones a favor y en contra.
+3. **CV adaptado** — Elegís idioma (es/en) y generás el CV adaptado a esa posición. Vista previa en PDF y descarga en Word (para editar) o PDF (para enviar directo).
 
 ---
 
@@ -18,26 +19,7 @@
 
 ---
 
-## Instalación
 
-### 1. Clonar y entrar al proyecto
-
-```bash
-git clone https://github.com/goncarpani/cvago.git
-cd cvago
-```
-
-### 2. Backend (Python)
-
-```bash
-# Crear entorno virtual
-python -m venv .venv
-
-# Activar (Windows PowerShell)
-.\.venv\Scripts\Activate.ps1
-
-# Activar (Linux/macOS)
-source .venv/bin/activate
 
 # Instalar dependencias (requirements están en backend/)
 pip install -r backend/requirements.txt
