@@ -1,6 +1,6 @@
-# CVago
+# CV Factory
 
-**CV + Vago** — Las empresas usan IA para filtrar candidatos. Devolvé el favor.
+**CV Factory** — Las empresas usan IA para filtrar candidatos. Devolvé el favor.
 Subís tu CV, analizás si la posición te cierra, y generás un CV adaptado a esa oferta en Word y PDF. Sin copiar y pegar a mano.
 
 **Flujo en 3 pasos:**
@@ -87,7 +87,7 @@ El perfil guardado se persiste en `data/profile.json`. Los CVs generados quedan 
 ## Estructura del repo
 
 ```
-cvago/
+cv-factory/
 ├── backend/               # API FastAPI
 │   ├── main.py            # Rutas y entrada
 │   ├── cv_parser.py       # CV → JSON

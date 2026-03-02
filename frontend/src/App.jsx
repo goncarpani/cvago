@@ -298,7 +298,7 @@ export default function App() {
       <header className="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-20">
         <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-gray-900 tracking-tight">CVago</h1>
+            <h1 className="text-2xl font-bold text-gray-900 tracking-tight">CV Factory</h1>
             <p className="text-sm text-gray-400 mt-0.5">Generá CVs adaptados a cada oferta laboral.</p>
           </div>
           <div className="flex items-center gap-2">

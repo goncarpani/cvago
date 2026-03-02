@@ -20,7 +20,7 @@ PROFILE_PATH = ROOT / "data" / "profile.json"
 CV_OUTPUT_DIR = Path(__file__).resolve().parent / "generated_cvs"
 CV_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-app = FastAPI(title="CVago")
+app = FastAPI(title="CV Factory")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
